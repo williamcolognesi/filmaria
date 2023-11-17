@@ -1,30 +1,40 @@
 .lista-filme-individual{
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    width: 100%;
+}
+
+@media (min-width: 900px){
+    .lista-filme-individual{
+        max-width: 800px;
     height: 700px;
+    }
 }
 
 .lista-filme-individual h1{
     font-size: 20px;
     margin-top: 20px;
+    padding: 0 20px;
 
 }
 
 .lista-filme-individual img{
-    border-radius: 20px;
+    padding: 0 20px;
 }
 
 .lista-filme-individual h3{
     font-size: 20px;
+    padding: 0 20px;
 }
 
 .lista-filme-individual p{
     font-size: 15px;
     margin-top: -5px;
+    padding: 0 20px;
 }
 
 .lista-filme-individual button{
+    
     border-radius: 5px;
     margin-top: 15;
     margin-right: 5px;
@@ -50,4 +60,10 @@
 }
 .lista-filme-individual a:hover{
     color: white;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+
 }
